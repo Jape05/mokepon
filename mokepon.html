@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOKEPON</title>
+    <link rel="shortcut icon" href="./img/icono.ico">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Langar&family=Madimi+One&family=Russo+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="container_title">
+        <h1 class="titulo">MOKEP<img src="./img/logo.png" alt="O">N</h1>
+    </section>
+
+
+    <section id="select_mascota">
+        <h2 class="subtitulo">Elige tu mascota:</h2>
+
+        <div id="contenedorTarjetas" class="tarjetas">
+           <!--  <input type="radio" name="mascota" id="hipodoge" />
+            <label class="tarjeta_de_mokepon" for="hipodoge">
+                <p>Hipodoge</p>
+                <img src="./img/hipodoge.png" alt="">
+            </label> 
+
+            <input type="radio" name="mascota" id="capipepo" />
+            <label class="tarjeta_de_mokepon" for="capipepo">
+                <p>Capipepo</p>
+                <img src="./img/capipepo.png" id="img_capipepo" alt="">
+            </label>
+
+            <input type="radio" name="mascota" id="ratigueya" />
+            <label class="tarjeta_de_mokepon " for="ratigueya">
+                <p>Ratigueya</p>
+                <img src="./img/ratigueya.png" id="img_ratigueya" alt="">
+            </label>
+
+            <input type="radio" name="mascota" id="langostelvis" />
+            <label class="tarjeta_de_mokepon " for="langostelvis">
+                <p>Langostelvis</p>
+                <img src="./img/langostelvis.png" id="img_langostelvis" alt="">
+            </label>
+
+            <input type="radio" name="mascota" id="tucapalma" />
+            <label class="tarjeta_de_mokepon " for="tucapalma">
+                <p>Tucapalma</p>
+                <img src="./img/tucapalma.png" id="img_tucapalma" alt="">
+            </label>
+
+            <input type="radio" name="mascota" id="pydos" />
+            <label class="tarjeta_de_mokepon " for="pydos">
+                <p>Pydos</p>
+                <img src="./img/pydos.png" id="img_pydos" alt="">
+            </label>-->
+        </div>
+
+        <button id="boton_mascota">Seleccionar</button>
+    </section>
+
+
+    <section id="select_ataque">
+
+        <h2 class="subtitulo">Elige tu ataque:</h2>
+
+        <div id="contenedorAtaques" class="container_buttom_ataques">
+            <!-- <button id="boton_fuego"> Fuego 🔥</button>
+            <button id="boton_agua"> Agua 💧</button>
+            <button id="boton_tierra"> Tierra 🌱</button>
+            -->
+        </div>
+
+        <div id="mensajes">
+            <p id="resultado">¡ MUCHA SUERTE !</p>
+
+            <section id="reiniciar">
+                <button id="boton_reiniciar">Reiniciar</button>
+            </section>
+        </div>
+
+        <div class="ataques">
+            <div class="ataques_jugador">
+                <p id="vidas_jugador">0</p>
+                <p id="mascota_jugador" tiene></p>
+                <img src="" class="img_mascotas" id="img_mascota_jugador" alt="">
+                <div id="ataques_del_jugador"></div>
+            </div>
+
+            <div class="ataques_enemigo">
+                <p id="vidas_enemigo">0</p>
+                <p id="mascota_enemigo"></p>
+                <img src="" class="img_mascotas" id="img_mascota_enemigo" alt="">
+                <div id="ataques_del_enemigo"></div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
