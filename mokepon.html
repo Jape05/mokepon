@@ -18,49 +18,27 @@
         <h1 class="titulo">MOKEP<img src="./img/logo.png" alt="O">N</h1>
     </section>
 
+    <section id="container_subtitle">
+        <h2 class="subtitulo">Elige tu mascota:</h2>
+    </section>
 
     <section id="select_mascota">
-        <h2 class="subtitulo">Elige tu mascota:</h2>
-
         <div id="contenedorTarjetas" class="tarjetas">
-           <!--  <input type="radio" name="mascota" id="hipodoge" />
-            <label class="tarjeta_de_mokepon" for="hipodoge">
-                <p>Hipodoge</p>
-                <img src="./img/hipodoge.png" alt="">
-            </label> 
-
-            <input type="radio" name="mascota" id="capipepo" />
-            <label class="tarjeta_de_mokepon" for="capipepo">
-                <p>Capipepo</p>
-                <img src="./img/capipepo.png" id="img_capipepo" alt="">
-            </label>
-
-            <input type="radio" name="mascota" id="ratigueya" />
-            <label class="tarjeta_de_mokepon " for="ratigueya">
-                <p>Ratigueya</p>
-                <img src="./img/ratigueya.png" id="img_ratigueya" alt="">
-            </label>
-
-            <input type="radio" name="mascota" id="langostelvis" />
-            <label class="tarjeta_de_mokepon " for="langostelvis">
-                <p>Langostelvis</p>
-                <img src="./img/langostelvis.png" id="img_langostelvis" alt="">
-            </label>
-
-            <input type="radio" name="mascota" id="tucapalma" />
-            <label class="tarjeta_de_mokepon " for="tucapalma">
-                <p>Tucapalma</p>
-                <img src="./img/tucapalma.png" id="img_tucapalma" alt="">
-            </label>
-
-            <input type="radio" name="mascota" id="pydos" />
-            <label class="tarjeta_de_mokepon " for="pydos">
-                <p>Pydos</p>
-                <img src="./img/pydos.png" id="img_pydos" alt="">
-            </label>-->
         </div>
 
         <button id="boton_mascota">Seleccionar</button>
+    </section>
+
+    <section id="ver_mapa">
+        <h1 class="sub_titulo">Recorre el mapa con tu mokepon</h1>
+        <canvas id="mapa"></canvas>
+        <button onmouseup="detenerMovimiento()" onmousedown="moverArriba()">🢁</button>
+        <div>
+            <button onmouseup="detenerMovimiento()" onmousedown="moverIzquierda()">🢀</button>
+            <button onmouseup="detenerMovimiento()" onmousedown="moverAbajo()">🢃</button>
+            <button onmouseup="detenerMovimiento()" onmousedown="moverDerecha()">🢂</button>
+        </div>
+
     </section>
 
 
@@ -69,10 +47,6 @@
         <h2 class="subtitulo">Elige tu ataque:</h2>
 
         <div id="contenedorAtaques" class="container_buttom_ataques">
-            <!-- <button id="boton_fuego"> Fuego 🔥</button>
-            <button id="boton_agua"> Agua 💧</button>
-            <button id="boton_tierra"> Tierra 🌱</button>
-            -->
         </div>
 
         <div id="mensajes">
